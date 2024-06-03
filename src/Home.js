@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import KeyFeatures from "./components/KeyFeatures";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import ReviewsSection from "./components/Review";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <NavBar />
       <Hero />
       <MainFeatures />
+      <ReviewsSection />
       <KeyFeatures />
       <Cta />
       <Footer />

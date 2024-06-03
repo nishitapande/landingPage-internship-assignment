@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.div{
+background: rgb(21,18,24);
+background: linear-gradient(
+   
+    155deg,
+    hsl(270deg 14% 8%) 1%,
+    hsl(266deg 20% 11%) 65%,
+    hsl(265deg 24% 13%) 77%,
+    hsl(265deg 28% 16%) 84%,
+    hsl(264deg 31% 19%) 89%,
+    hsl(264deg 33% 22%) 93%,
+    hsl(263deg 34% 25%) 95%,
+    hsl(263deg 36% 27%) 97%,
+    hsl(287deg 32% 31%) 98%,
+    hsl(311deg 32% 37%) 99%,
+    hsl(326deg 34% 45%) 100%,
+    hsl(338deg 39% 53%) 100%,
+    hsl(348deg 53% 62%) 100%,
+    hsl(358deg 70% 70%) 100%,
+    hsl(9deg 95% 74%) 100%
+  
+  );
+}
