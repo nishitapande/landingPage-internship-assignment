@@ -3,7 +3,7 @@ import { GoChecklist, BsHouse, IoBagOutline } from "react-icons/go";
 const Card = ({ cardItem }) => {
   return (
     <div>
-      <div class="max-w-72 p-6 bg-lavender border border-gray-200 rounded-lg h-64 ">
+      <div className="max-w-72 p-6 bg-lavender border border-gray-200 rounded-lg h-64 ">
         <svg width="0" height="0">
           <defs>
             <linearGradient
@@ -37,11 +37,11 @@ const Card = ({ cardItem }) => {
           }}
         />
         <a href="#">
-          <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">
+          <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">
             {cardItem.title}
           </h5>
         </a>
-        <p class="mb-3 font-normal text-black ">{cardItem.description}</p>
+        <p className="mb-3 font-normal text-black ">{cardItem.description}</p>
       </div>
     </div>
   );

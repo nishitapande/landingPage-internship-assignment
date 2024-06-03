@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         lavender: "#f1e9fc",
+        navblack: "#151218",
+        peach: "#fc907e",
       },
     },
   },
