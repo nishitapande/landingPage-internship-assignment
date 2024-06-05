@@ -2,20 +2,20 @@ import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import { IoIosArrowDropleft } from "react-icons/io";
 import { IoIosArrowDropright } from "react-icons/io";
-import img1 from "../utils/samosalogo.png";
-import avator from "../utils/avator.jpg";
 
 const Review = () => {
   const cards = [
     {
       id: 0,
       name: "Diksha Pande",
-      profile: avator,
+      profile:
+        "https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/651c00235cd9c2cd10fb1976_Samosa%20Party%20Client%20Image.webp",
       designation: "Co-founder,Samosa Party",
 
       description:
         "D2C brands face issues with supply chain management and high growth startups are not equipped to run their demand forecast manually. Crest automates all the workflows and helps brands predict high demand periods and be ready to cater to customer demands. It has a direct impact on the revenue readiness of a company and that's the value we see Crest unlocking for many companies in the future. Rahul and team have built a robust product with years of their experience distilled into the workflows.",
-      companyLogo: img1,
+      companyLogo:
+        "https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63a48634ed59555eb9125770_samosa.svg",
       reviewPic:
         "https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664ddc11c29c3652662f0739_samosa%20party%20image.webp",
       mainText: [
@@ -34,13 +34,15 @@ const Review = () => {
     },
     {
       id: 1,
-      name: "Nishita Pande",
-      profile: avator,
+      name: "Kirti Goel",
+      profile:
+        "https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664ddd1080709540ff764308_P-Tal%20founder.jpg",
 
-      designation: "Co-founder,Samosa Party",
+      designation: "Co-founder, P-TAL",
       description:
-        "brands face issues with supply chain management and high growth startups are not equipped to run their demand forecast manually. Crest automates all the workflows and helps brands predict high demand periods and be ready to cater to customer demands. It has a direct impact on the revenue readiness of a company and that's the value we see Crest unlocking for many companies in the future. Rahul and team have built a robust product with years of their experience distilled into the workflows.",
-      companyLogo: img1,
+        "As Co-founders, we had zero clue on the real time stock levels in our warehouse. It felt like a battle to manually update invoices from EE to Zoho, so that at least some data points can be tracked.While we had already implemented Crest I had no clue that they could make this API integration work for us and exactly the way we wanted it to work. Thank you team Rahul Vishwakarma & Yogesh Byahatti for identifying the problem and being so quick with the solution, kudos to the amazing team you have.",
+      companyLogo:
+        "https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/65bcd77cae6da5aab64f973a_P-TAL.svg",
       reviewPic:
         "https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/664c90f75b0f0e735016706b_P-tal-p-500.webp",
       mainText: [
@@ -124,7 +126,7 @@ const Review = () => {
                     </div>
                   </div>
                   {/* buttons */}
-                  <div className="mt-6 ">
+                  <div className="mt-8 ">
                     <button onClick={previous}>
                       <svg width="0" height="0">
                         <defs>
@@ -282,10 +284,10 @@ const Review = () => {
             </div>
             {/* IMAGE WALA DIV */}
             <div className="">
-              <div className=" flex justify-center items-center border-black ">
+              <div className=" flex justify-center items-center border-gray-400 ">
                 <img
                   src={reviewPic}
-                  className="w-96 border rounded-lg border-black"
+                  className="w-96 border rounded-lg "
                   style={{
                     height: "450px",
                   }}

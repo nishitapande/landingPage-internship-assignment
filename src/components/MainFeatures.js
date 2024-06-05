@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import { GoChecklist, BsHouse, IoBagOutline } from "react-icons/go";
 
 const MainFeatures = () => {
   const cardDeatils = [
