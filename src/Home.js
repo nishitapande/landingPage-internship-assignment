@@ -6,7 +6,7 @@ import KeyFeatures from "./components/KeyFeatures";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Review from "./components/Review";
-import Metrics from "./components/Metrics";
+
 import Companies from "./components/Companies";
 
 const Home = () => {
