@@ -231,7 +231,7 @@ const Review = () => {
                   {mainText.map((item, index) => {
                     return (
                       <div
-                        className="border  text-center rounded-2xl w-56 bg-lavender h-28 "
+                        className="flex border  text-center rounded-2xl w-56 bg-lavender h-28 "
                         style={{
                           padding: "15px 24px",
 
@@ -262,7 +262,7 @@ const Review = () => {
                 </div>
                 {link && (
                   <a href={link}>
-                    <div className="border  rounded-lg w-56 bg-lavender ">
+                    <div className="border flex rounded-lg w-56 bg-lavender h-28  items-center">
                       <div className="flex flex-col p-5 ">
                         <p
                           className="font-semibold text-gradient text-center"

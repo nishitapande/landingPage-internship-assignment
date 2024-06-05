@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../utils/logo.png";
+import ScrollToTopButton from "./ScrollToTop";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-6 ">
@@ -59,6 +60,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex items-end justify-end mr-24">
+        <ScrollToTopButton />
       </div>
     </footer>
   );
