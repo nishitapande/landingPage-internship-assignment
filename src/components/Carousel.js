@@ -122,23 +122,32 @@ const Carousel = ({ cards }) => {
           />
         </button>
         <Slider ref={sliderRef} {...settings}>
-          {cards.map((card, index) => (
-            <div key={index} className="p-4">
-              <div className="bg-white p-6 h-2/4 rounded-3xl shadow-lg w-3/4 mx-auto flex items-center justify-evenly">
-                <img
-                  className="h-72 rounded w-3/5 object-cover object-center mb-6"
-                  src={card.image}
-                  alt="content"
-                />
-                <div className="ml-6">
-                  <h2 className="text-lg text-gray-900 text-3xl font-medium title-font mb-4">
-                    {card.title}
-                  </h2>
-                  <p className="leading-relaxed text-sm">{card.description}</p>
+          {cards.map((card, index) => {
+            return (
+              <div key={index} className="p-2">
+                <div className="bg-white p-6 h-2/4 rounded-3xl shadow-lg w-3/4 mx-auto flex items-center justify-evenly">
+                  <img
+                    className="h-72 rounded w-3/5 object-cover object-center mb-6"
+                    src={card.image}
+                    alt="content"
+                  />
+                  <div className="ml-2">
+                    <h2
+                      className="text-3xl text-gray-900 font-medium title-font font-semibold mb-4"
+                      style={{
+                        lineHeight: "38px",
+                      }}
+                    >
+                      {card.title}
+                    </h2>
+                    <p className="leading-relaxed text-sm">
+                      {card.description}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </Slider>
       </div>
     </div>

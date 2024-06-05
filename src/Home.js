@@ -5,7 +5,8 @@ import Footer from "./components/Footer";
 import KeyFeatures from "./components/KeyFeatures";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
-import ReviewsSection from "./components/Review";
+import Review from "./components/Review";
+import Metrics from "./components/Metrics";
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
       <NavBar />
       <Hero />
       <MainFeatures />
-      <ReviewsSection />
+      {/* <Metrics /> */}
+      <Review />
       <KeyFeatures />
       <Cta />
       <Footer />

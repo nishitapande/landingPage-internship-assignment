@@ -32,7 +32,13 @@ const MainFeatures = () => {
   return (
     <div className="container mx-14 my-14">
       <div className="flex flex-col items-center justify-center">
-        <h2 className="font-normal text-center text-4xl tracking-wider my-24 mb-20">
+        <h2
+          className="font-semibold text-navblack text-center text-4xl tracking-wider my-24 mb-20"
+          style={{
+            fontFamily: "Proxima nova, sans-serif",
+            lineHeight: "48px",
+          }}
+        >
           {" "}
           <strong>Four key questions answered by CleverBooks </strong>{" "}
         </h2>

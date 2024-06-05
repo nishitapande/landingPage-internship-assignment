@@ -31,7 +31,12 @@ const KeyFeatures = () => {
   return (
     <div className=" bg-lavender">
       <div className=" bg-lavender pb-20">
-        <h2 className="text-4xl text-semibold text-center pt-12 mb-20">
+        <h2
+          className="text-4xl text-semibold text-center pt-12 mb-20"
+          style={{
+            lineHeight: "48px",
+          }}
+        >
           <strong>Get CleverBooks and get..</strong>
         </h2>
         <Carousel cards={cardData} />

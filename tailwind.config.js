@@ -10,5 +10,15 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-gradient": {
+          background: "linear-gradient(90deg, #fc907e, #9f6eed, #402d5f)",
+          "-webkit-background-clip": "text",
+          "-webkit-text-fill-color": "transparent",
+        },
+      });
+    },
+  ],
 };
